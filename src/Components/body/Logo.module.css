@@ -1,0 +1,16 @@
+.logo{
+    height: 32vw;
+    animation: img-aniimation;
+    animation-duration: 1.5s;
+    position:absolute;
+    left: 3.1vw;
+}
+
+@keyframes img-aniimation {
+    0%{
+        right: -50vw;
+    }
+    100%{
+        left: 3.1vw;
+    }
+}

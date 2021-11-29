@@ -1,0 +1,41 @@
+.childOptions button{
+    width: 85%;
+    height: 5vw;
+    font-size: 1.4vw;
+    font-weight: 600;
+    border: none;
+    box-shadow: 20px 20px 20px black;
+}
+
+.childOptions button:hover{
+    transform:translate(-.5vw, .5vw);
+    box-shadow: 20px 10px 20px rgba(10, 170, 170, 0.5);
+    background: linear-gradient(-90deg, rgba(82, 82, 82, 0.089), rgba(82, 82, 82, 0));
+    color: rgb(255, 255, 255);
+}
+
+.childOptions{
+    border-radius: 0 5vw 5vw 0;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.topButton{
+    position: relative;
+    left: 7.5%;
+    width: 100%;
+}
+.topButton button{
+    border-radius: 0 5vw 0 0;
+}
+
+.bottomButton{
+    position: relative;
+    left: 7.5%;
+    width: 100%;
+}
+.bottomButton button{
+    border-radius: 0 0 5vw 0;
+}

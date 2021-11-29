@@ -1,0 +1,98 @@
+footer{
+    bottom: 0;
+    left: 0;
+    margin-top: 1vw;
+    min-width: 100%;
+}
+
+.mainFooter {
+    display:  flex;
+    min-height: max-content;
+    position: relative;
+    /* width: 100%; */
+    background: linear-gradient(-90deg, #02474394, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    border-radius: 10vw 0 10vw 0;
+    box-shadow: 20px 10px 20px rgba(10, 170, 170, 0.5);
+    border-top: 3px solid rgb(255, 255, 255);
+    /* border-bottom: 3px solid rgb(70, 69, 69); */
+}
+
+.footerNumber{
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    margin: 1.5vw;
+    margin-left: 3.5vw;
+    max-width: max-content;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.555);
+    border-radius: 1vw;
+    background: linear-gradient(-45deg, #ffffff,  rgba(255, 255, 255, 0));
+}
+.footerNumber a{
+    cursor: pointer;
+    margin: 1vw;
+}
+
+.footerNumber:hover{
+    transform:translate(-.5vw, .5vw);
+    box-shadow: 20px 10px 20px rgba(10, 170, 170, 0.5);
+    background: linear-gradient(-45deg, rgba(82, 82, 82, 0.089), rgba(82, 82, 82, 0));
+    color: rgb(255, 255, 255);
+}
+.footerNumber img{
+    max-width: 3vw;
+    height: 3vw;
+}
+
+.footerSkype{
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    margin: 1.5vw;
+    margin-left: 3.5vw;
+    max-width: max-content;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.555);
+    border-radius: 1vw;
+    background: linear-gradient(-45deg, #ffffff,  rgba(255, 255, 255, 0));
+}
+.footerSkype a{
+    cursor: pointer;
+    margin: 1vw;
+}
+.footerSkype:hover{
+    transform:translate(-.5vw, .5vw);
+    box-shadow: 20px 10px 20px rgba(10, 170, 170, 0.5);
+    background: linear-gradient(-90deg, rgba(82, 82, 82, 0.089), rgba(82, 82, 82, 0));
+    color: rgb(255, 255, 255);
+}
+
+.footerSkype img{
+    max-width: 3vw;
+    height: 3vw;
+}
+.qrCode {
+    display: flex;
+    align-items: center;
+    margin: 1.5vw;
+    position: absolute;
+    right: 10vw;
+    width: 30vw;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0 0 10vw 0;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.555);
+}
+
+.qrCode p{
+    padding: .5vw;
+    height: 5vw;
+    width: 16vw;
+    font-size: 1vw;
+    background-color: none;
+}
+
+.qrCode img{
+    height: 9vw;
+    width: 9vw;
+}

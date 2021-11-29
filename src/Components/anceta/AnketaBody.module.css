@@ -1,0 +1,11 @@
+.anketBody{
+    max-width: 37vw;
+    margin-top: 3%;
+    margin-left: 3%;  
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;  
+    padding-left: 10vw;
+    opacity: .8;
+}
+

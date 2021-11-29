@@ -1,0 +1,30 @@
+.deepshadow{
+    color: black;
+}
+
+.vseosvitaPage{
+    position: absolute;
+    right: 5vw;
+    top: 0%;
+    width: 0;
+    min-height: 32vw;
+    font-size: medium;
+    background: linear-gradient(-90deg, #024743, #e7e5e4, #e7e5e4 );  
+    border-radius: 0 10vw 0 10vw;
+    box-shadow: 0 0 50px rgba(170, 170, 170, 0.5);
+    color: white;
+    padding: 1%;
+    z-index: 6;
+}
+
+.item a {
+    color: black;
+}
+
+.item a.active {
+    color: black;
+    font-weight: bold;
+    background-color:rgb(173, 201, 255);
+    border-radius: 10px 10px 0 0;
+    opacity: 1;
+}

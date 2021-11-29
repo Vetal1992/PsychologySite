@@ -1,0 +1,61 @@
+
+*{
+    position: relative;
+    font-family: Consolas;
+    -webkit-transition: .35s ease-in;
+            transition: .35s ease-in;
+            
+}
+
+html{
+    max-width: 100vw;
+    /* overflow-x: hidden; */
+    overflow-y: auto;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.hide{
+    position: absolute;
+    right: 5vw;
+    /* width: 0 !important; */
+   opacity: 0;
+   transition: .3s !important;
+}
+.visible{
+    position: absolute;
+    animation-duration: 1.5s;
+    width: 45vw !important;
+   right: 0px !important;
+   opacity: 1;
+   transition: 1s !important;
+}
+
+body{
+    margin-left: 0;
+    background: linear-gradient(3deg, #bdbdbd, #302d2d );
+    z-index: 10;
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(90deg, #024743, #e7e5e4, #e7e5e4 );
+    border-radius: 1vw 0 0 1vw;
+    opacity: .8;
+}
+
+.largeVideoStyle{
+    min-width: 25vw ;
+    min-height: 20vw ;
+    position: absolute;
+    bottom: 10.4vw;
+    /* left: 30vw; */
+    z-index: 20 ;
+    transition: 1s !important;
+    opacity: 1 !important;
+}
+
+.largeVideoStyle:hover{
+    transform: none !important;
+    z-index: 20 !important;
+}

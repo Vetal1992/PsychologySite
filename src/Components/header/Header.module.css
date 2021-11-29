@@ -1,0 +1,13 @@
+.head {
+    margin: 0;
+    padding-left: 20%;
+    color: white;
+    font-size: 1vw;
+}
+
+.phone{
+    box-shadow: 0 0 50px rgba(10, 170, 170, 0.5);
+    border-radius: 2vw 0 0 2vw ;
+    padding-left: 1vw;
+    cursor: pointer;
+}

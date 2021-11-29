@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    background: linear-gradient(-90deg, #02474394, #e7e5e4, #e7e5e4e0,#e7e5e4ea,#e7e5e46e, #e7e5e400);
+    border-radius: 0 10vw 0 10vw;
+    box-shadow: 50px 20px 50px rgba(10, 170, 170, 0.5);
+    border-top: 3px solid rgb(255, 255, 255);
+}
